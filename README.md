@@ -1,4 +1,4 @@
-# diskDB [![Build Status](https://secure.travis-ci.org/arvindr21/diskDB.png?branch=master)](https://travis-ci.org/arvindr21/diskDB) [![NPM version](https://badge-me.herokuapp.com/api/npm/diskdb.png)](http://badges.enytc.com/for/npm/diskdb) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/arvindr21/diskDB?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# diskDB [![Build Status](https://secure.travis-ci.org/arvindr21/diskDB.png?branch=master)](https://travis-ci.org/arvindr21/diskDB) [![NPM version](https://badge-me.herokuapp.com/api/npm/diskdb.png)](http://badges.enytc.com/for/npm/diskdb) [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/arvindr21/diskDB?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![NPM](https://nodei.co/npm/diskdb.png?downloads=true&stars=true)](https://nodei.co/npm/diskdb/)
 
@@ -52,8 +52,7 @@ This will check for a directory at given path, if it does not exits, diskDB will
 
 If the directory exists but the file/collection does not exist, diskDB will create it for you.
 
-**Note** : If you have manually created a JSON file, please make sure it contains a valid JSON array, otherwise diskDB
-will return an empty array.
+**Note** : If you have manually created an empty JSON file, please make sure that it contains at least an empty array.
 
 ```js
 []
