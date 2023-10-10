@@ -1,7 +1,7 @@
 {
   "name": "diskdb",
   "version": "0.1.17",
-  "main": "dist/diskdb.js",
+  "main": "lib/diskdb.js",
   "description": "A Lightweight Disk based JSON Database with a MongoDB like API (updated by pierre.gremaud@bluewin.ch)",
   "homepage": "http://arvindr21.github.io/diskDB",
   "bugs": "https://github.com/arvindr21/diskdb/issues",
@@ -16,7 +16,8 @@
   },
   "license": "MIT",
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "keywords": [
     "diskDB",
@@ -37,7 +38,7 @@
     "uuid": "^9.0.1"
   },
   "scripts": {
-    "compile": "npx babel lib --out-dir dist",
+    "compile": "npx babel src --out-dir lib",
     "start": "node dist/diskdb.js"
   }
 }
