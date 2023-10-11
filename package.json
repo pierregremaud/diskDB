@@ -27,13 +27,6 @@
     "lightweight"
   ],
   "devDependencies": {
-    "grunt": "^1.6.1",
-    "grunt-contrib-jshint": "^3.2.0",
-    "grunt-contrib-nodeunit": "^5.0.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "jshint-stylish": "^2.2.1",
-    "load-grunt-tasks": "^5.1.0",
-    "time-grunt": "^2.0.0"
   },
   "dependencies": {
     "chalk": "4.1.2",
