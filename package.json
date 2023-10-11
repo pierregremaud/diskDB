@@ -2,7 +2,7 @@
   "name": "diskdb",
   "version": "0.1.17",
   "main": "lib/diskdb.js",
-  "description": "A Lightweight Disk based JSON Database with a MongoDB like API (updated by pierre.gremaud@bluewin.ch)",
+  "description": "A Lightweight Disk based JSON Database with a MongoDB like API",
   "homepage": "http://arvindr21.github.io/diskDB",
   "bugs": "https://github.com/arvindr21/diskdb/issues",
   "author": {
@@ -12,12 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pierregremaud/diskdb"
+    "url": "https://github.com/arvindr21/diskdb"
   },
   "license": "MIT",
   "files": [
-    "lib",
-    "src"
+    "lib"
   ],
   "keywords": [
     "diskDB",
@@ -28,17 +27,25 @@
     "lightweight"
   ],
   "devDependencies": {
-    "@babel/cli": "^7.23.0",
-    "@babel/core": "^7.23.0",
-    "@babel/preset-env": "^7.22.20"
+    "grunt": "^1.6.1",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-nodeunit": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jshint-stylish": "^2.2.1",
+    "load-grunt-tasks": "^5.1.0",
+    "time-grunt": "^2.0.0"
   },
   "dependencies": {
     "chalk": "4.1.2",
     "merge": "^2.1.1",
     "uuid": "^9.0.1"
   },
+  "nodemonConfig": {
+    "ignore": [
+      "./data/*"
+    ]
+  },
   "scripts": {
-    "compile": "npx babel src --out-dir lib",
-    "start": "node dist/diskdb.js"
+    "test": "grunt"
   }
 }
