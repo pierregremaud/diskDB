@@ -2,7 +2,7 @@
   "name": "diskdb",
   "version": "0.1.17",
   "main": "lib/diskdb.js",
-  "description": "A Lightweight Disk based JSON Database with a MongoDB like API",
+  "description": "A Lightweight Disk based JSON Database with a MongoDB like API (updated by pierre.grmaud@bluewin.ch)",
   "homepage": "http://arvindr21.github.io/diskDB",
   "bugs": "https://github.com/arvindr21/diskdb/issues",
   "author": {
